@@ -20,3 +20,6 @@ This repository should be stable, but I plan on adding more features in the futu
 ---
 
 Inspired by [jmuchovej/paperpile-notion](https://github.com/jmuchovej/paperpile-notion) and [seba-1511/sync-paperpile-notion](https://github.com/seba-1511/sync-paperpile-notion). Actually, this is effectively a fork/rewrite of seba-1511's repository, so much original credit goes to them.
+---
+Template from https://github.com/apoorvkh/paperpile-to-notion 
+p.s. make sure database has no empty rows before proceeding...
