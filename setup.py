@@ -5,7 +5,7 @@ requirements = ["requests", "bibtexparser", "PyDrive2"]
 setup(
     name="paperpile_to_notion",
     version="1.0.0",
-    url="https://github.com/apoorvkh/paperpile-to-notion",
+    url="https://github.com/bmsacchi/paperpile-to-notion",
     python_requires=">=3.9",
     install_requires=requirements,
     classifiers=[
