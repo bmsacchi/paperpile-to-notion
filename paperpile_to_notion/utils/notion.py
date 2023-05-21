@@ -23,11 +23,12 @@ def query_db(db_id, headers=None):
 
     while response["has_more"]:
         response = requests.post(url, json=payload, headers=headers, timeout=60).json()
+        print(response, flush=True) 
         pages += response["results"]
         payload["start_cursor"] = response["next_cursor"]
 
     pages = [p for p in pages if p['archived'] is False]
-
+    
     return pages
 
 
