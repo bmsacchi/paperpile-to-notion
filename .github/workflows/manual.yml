@@ -1,4 +1,4 @@
-name: Sync to Notion
+name: Sync to Notion 2
 
 on:
   push:
